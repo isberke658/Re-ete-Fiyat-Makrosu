@@ -1,0 +1,32 @@
+================================================================================
+TIGER & LOGO ERP RECETE MALIYETI VE AKTARIM OTOMASYON KITI (v3.1)
+================================================================================
+
+1. KURULUM GEREKMEZ (PORTABLE):
+   - Programi indirin ve istediginiz bir klasore / Masaustune cikarin.
+   - 'Recete_Fiyat_Kopyalama_Makro.exe' uygulamasina cift tiklayarak calistirin.
+   - Python veya baska bir kutuphane kurmaniza gerek YOKTUR.
+
+2. KISAYOL TUSLARI (KLAVYE HOTKEYS):
+   [F6]  : MAKROYU BASLAT / DEVAM ET (Otomatik sirayla ceker)
+   [F7]  : DURDUR / DURAKLAT
+   [F8]  : FIYAT HUCRESI KOORDINATINI KAYDET (Farenin oldugu noktayi alir)
+   [F9]  : MAMUL SECICI (LookUpEdit) KOORDINATINI KAYDET
+   [F10] : TEK SATIR KAYDET (Manuel mod - Tek basista 1 recete alir)
+   [ESC] : ACIL DURDURMA
+
+3. TIGER ERP EKRAN DUZENI:
+   - Tiger ERP Reçete Maliyeti penceresini ekranin sol veya sag yarisina sabitleyin.
+   - Makro arayuzunu yanina konumlandirin.
+   - Makro varsayilan olarak standart ekran koordinatlariyla gelir. Eger farkli
+     cozunurluk kullaniyorsaniz:
+     * Farenizi ERP'deki Mamul Secim Kutusunun uzerine getirin -> F9 basin.
+     * Farenizi tablodaki 1. satir / Fiyat hucresinin uzerine getirin -> F8 basin.
+     * Koordinatlar otomatik kaydedilir!
+
+4. EXCEL CIKTISI:
+   - Cekilen tum veriler Masaustunde 'Reçete_Maliyeti_Canlı_Liste.xlsx' dosyasina
+     her mamulde CANLI OLARAK aninda kaydedilir.
+   - 'Basa Sar' tusuna basarsaniz Excel'i sifirlayip 1. siradan tekrar baslatir.
+
+Iyi calismalar!
